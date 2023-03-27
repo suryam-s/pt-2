@@ -4,11 +4,11 @@ const { ObjectId } = mongoose.Schema;
 
 const userSchema = mongoose.Schema(
   {
-  first_name: {
-    type: String,
-    required: [true, "first name is required"],
-    trim: true,
-    text: true,
+    first_name: {
+      type: String,
+      required: [true, "first name is required"],
+      trim: true,
+      text: true,
     },
     last_name: {
       type: String,
@@ -37,7 +37,7 @@ const userSchema = mongoose.Schema(
       type: String,
       trim: true,
       default:
-        "https://res.cloudinary.com/dtnyczk0u/image/upload/v1679493527/default_pic_awgubc.png",
+        "https://res.cloudinary.com/dmhcnhtng/image/upload/v1643044376/avatars/default_pic_jeaybr.png",
     },
     cover: {
       type: String,
